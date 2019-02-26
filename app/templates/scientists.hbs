@@ -1,3 +1,7 @@
 <h2>List Of Scientists</h2>
-
+<ul>
+    {{#each this.model as |scientist|}}
+    <li>{{scientist}}</li>
+    {{/each}}
+</ul>
 {{outlet}}
